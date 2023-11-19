@@ -23,7 +23,7 @@ public class tracker : MonoBehaviour
 
     void CreateTextP()
     {
-        string path = Application.dataPath + "/LoveIsLoveAndLoveIsGay";
+        string path = Application.dataPath + "/tracked_object";
         if (!File.Exists(path))
         {
             File.WriteAllText(path,"Tracker \n\n");
